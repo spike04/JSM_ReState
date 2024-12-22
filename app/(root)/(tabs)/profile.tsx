@@ -70,7 +70,7 @@ const Profile = () => {
       >
         <View className="flex flex-row items-center justify-between mt-5">
           <Text className="text-2xl font-rubik-bold">Profile</Text>
-          <Image source={icons.bell} className="size-8" />
+          <Image source={icons.bell} className="size-6" />
         </View>
 
         <View className="flex-row justify-center flex mt-5">
