@@ -4,6 +4,7 @@ import React, { useEffect } from 'react'
 import { useFonts } from 'expo-font'
 import { StatusBar } from 'expo-status-bar'
 import './global.css'
+import GlobalProvider from '@/lib/global-provider'
 
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
@@ -25,8 +26,10 @@ export default function RootLayout() {
 
   return (
     <>
-      <StatusBar style="dark" />
-      <Stack screenOptions={{ headerShown: false }} />
+      <GlobalProvider>
+        <StatusBar style="dark" />
+        <Stack screenOptions={{ headerShown: false }} />
+      </GlobalProvider>
     </>
   )
 }

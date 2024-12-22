@@ -1,4 +1,3 @@
-import { Link } from 'expo-router'
 import { Text, View } from 'react-native'
 
 export default function Index() {
@@ -7,7 +6,6 @@ export default function Index() {
       <Text className="font-rubik font-bold text-3xl my-10">
         Welcome to ReState
       </Text>
-      <Link href='/sign-in'>Sign In</Link>
     </View>
   )
 }
