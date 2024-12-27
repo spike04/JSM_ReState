@@ -11,10 +11,10 @@ Project created to demonstrate how to integrate Expo, Appwrite, TailwindCSS (Nat
 
 ## Snapshots of Project
 
-| Page    | Screenshot                                   |
-| ------- | -------------------------------------------- |
-| Sign In | <img src="./screenshots/1.png" width="300"/> |
-| Profile | <img src="./screenshots/2.png" width="300"/> |
-| Home    | <img src="./screenshots/3.png" width="300"/> |
+| Login                                        | Profile                                      | Home                                         |
+| -------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| <img src="./screenshots/1.png" width="300"/> | <img src="./screenshots/2.png" width="300"/> | <img src="./screenshots/3.png" width="300"/> |
+| Explore | Property Detail |
+| <img src="./screenshots/4.png" width="300"/> | <img src="./screenshots/5.png" width="300"/> |
 
-More Screenshots will be added soon. Enjoy 👋🚀
+Final Project Screenshots. Enjoy 👋🚀
